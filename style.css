@@ -1,0 +1,111 @@
+/* Navbar */
+.navbar{
+    height: 70px;
+}
+nav a{
+    padding: 10px;
+    margin: 0 5px;
+}
+
+nav a:hover{
+    border-bottom: 1px solid var(--white-color);
+}
+
+/* Showcase */
+.showcase{
+    position: relative;
+}
+.showcase .grid{
+    overflow: visible;
+}
+.showcase h1{
+    font-weight: 300;
+}
+
+.showcase-form{
+    position: relative;
+    top: 60px;
+    height: 350px;
+    width: 400px;
+    padding: 40px;
+    z-index: 100;
+    justify-self: flex-end;
+}
+
+.showcase-form input[type="text"],
+.showcase-form input[type="email"]{
+    border: 0;
+    border-bottom: 1px solid #b4becb;
+    width: 100%;
+    padding: 3px;
+    font-size: 16px;
+}
+
+.showcase-form .form-control {
+    margin: 30px 0;
+}
+
+.showcase-form input:focus{
+    outline: none;
+}
+.showcase::before,.showcase::after{
+    content: '';
+    position: absolute;
+    bottom: -65px;
+    height: 100px;
+    right: 0;
+    left: 0;
+    background-color: var(--white-color);
+    transform: skewY(-3deg);
+  -webkit-transform: skewY(-3deg);
+  -moz-transform: skewY(-3deg);
+  -ms-transform: skewY(-3deg);
+}
+
+/* Stats */
+.stats{
+    padding-top: 100px;
+}
+.stats h3{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* Cli */
+
+.cli .grid > *:first-child {
+    grid-column: 1/ span 2;
+    grid-row: 1 / span 2;
+}
+
+.cli .grid .card{
+    justify-self: stretch;
+}
+
+/* Cloud */
+.cloud .grid{
+    grid-template-columns: 4fr 3fr;
+}
+
+/* Languages */
+.languages .flex{
+    flex-wrap: wrap;
+}
+.languages .card {
+    text-align: center;
+    margin: 18px 10px 40px;
+    transition: transform 0.2s ease-in;
+  }
+  
+.languages .card h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+.languages .card:hover {
+    transform: translateY(-15px);
+  }
+/* Footer */
+.footer .social a{
+    margin: 0 10px;
+}

@@ -1,0 +1,47 @@
+/* Tablet and Under */
+@media (max-width:768px){
+    .grid,.grid-2,.grid-3,.grid-4{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+    .showcase{
+        height: auto;
+    }
+    .showcase-text {
+        text-align: center;
+        margin-top: 40px;
+        animation: slideInFromTop 1s ease-in;
+      }
+    .showcase-form{
+        justify-self: center;
+        margin: auto;
+        animation: slideInFromBottom 1s ease-in;
+    }
+    .cli .grid > *:first-child {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .cloud .grid{
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Mobile */
+@media (max-width:500px){
+    .navbar{
+        height: 110px;
+    }
+    .navbar > .flex{
+        flex-direction: column;
+    }
+    .navbar ul {
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.1);
+      }
+      .showcase-form {
+        width: 300px;
+      }
+    .footer .grid{
+        justify-items: stretch;
+    }
+}
