@@ -14,7 +14,7 @@
       }
     .showcase-form{
         justify-self: center;
-        margin: auto;
+        margin: 0 auto;
         animation: slideInFromBottom 1s ease-in;
     }
     .cli .grid > *:first-child {
@@ -39,7 +39,7 @@
         background-color: rgba(0, 0, 0, 0.1);
       }
       .showcase-form {
-        width: 300px;
+        width: 250px;
       }
     .footer .grid{
         justify-items: stretch;
