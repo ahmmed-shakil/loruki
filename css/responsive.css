@@ -1,6 +1,6 @@
 /* Tablet and Under */
 @media (max-width:768px){
-    .grid,.grid-2,.grid-3,.grid-4{
+    .grid,.grid-2,.grid-3,.grid-4,.docs-main .grid{
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
     }
@@ -40,7 +40,7 @@
 
 /* Mobile */
 @media (max-width:500px){
-    .showcase .container{
+    .container,{
         padding: 0 10px;
     }
     .navbar{

@@ -11,6 +11,10 @@
     --box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
 }
 
+.text-primary{
+    color: var(--primary-color);
+}
+
 *{
     box-sizing: border-box;
     padding: 0;
@@ -112,7 +116,7 @@ img {
 .grid-4 {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-  }
+}
 
 .grid-column{
     grid-template-columns: 1fr;
@@ -155,17 +159,21 @@ img {
     color: var(--primary-color);
   }
   
-  .text-secondary {
+.text-secondary {
     color: var(--secondary-color);
   }
   
-  .text-dark {
+.text-dark {
     color: var(--dark-color);
   }
   
-  .text-light {
+.text-light {
     color: var(--light-color);
-  }
+}
+
+.clicked{
+    color: var(--primary-color)!important;
+}
 
 /* Text Sizes & Alignment */
 .lead{
@@ -191,7 +199,20 @@ img {
 .text-center{
     text-align: center;
 }
-
+pre,code{
+    background-color: var(--black-color);
+    color: var(--white-color);
+    padding: 5px;
+    font-size: 1rem;
+}
+.alert{
+    background-color: var(--light-color);
+    padding: 10px;
+    font-size: 1rem;
+}
+.alert-success{
+    background-color: var(--success-color);
+}
 /* Margin */
 .my-1 {
     margin: 1rem 0;
@@ -272,7 +293,9 @@ margin: 3rem 0 0 0;
 .mt-5 {
 margin: 4rem 0 0 0;
 }
-
+.me{
+    margin-right: 1rem;
+}
 /* Padding */
 
 .py-1 {

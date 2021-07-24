@@ -107,7 +107,7 @@ nav a:hover{
   }
 
 /* Features */
-.feature img{
+.feature img,.docs img{
     width: 200px;
     justify-self: flex-end;
 }
@@ -128,6 +128,28 @@ nav a:hover{
     grid-column: 1/ span 2;
 }
 
+/* Docs */
+.docs .grid > *:first-child{
+    justify-self: flex-start;
+}
+.docs-main .grid {
+    grid-template-columns: 1fr 2fr;
+    align-items: flex-start;
+}
+.docs-main .card{
+    width: 100%;
+}
+  
+.docs-main nav li {
+    font-size: 17px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px #ccc solid;
+}
+  
+.docs-main a:hover {
+    font-weight: bold;
+}
 /* Footer */
 .footer .social a{
     margin: 0 10px;
