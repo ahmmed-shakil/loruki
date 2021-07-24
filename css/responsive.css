@@ -40,6 +40,9 @@
 
 /* Mobile */
 @media (max-width:500px){
+    .showcase .container{
+        padding: 0 10px;
+    }
     .navbar{
         height: 110px;
     }
@@ -55,5 +58,20 @@
       }
     .footer .grid{
         justify-items: stretch;
+    }
+}
+
+@media (max-width:300px){
+    .showcase .container{
+        padding: 0;
+    }
+    .feature-sub-head img{
+        width: 100%;
+    }
+    footer{
+        padding: 5px;
+    }
+    .social i{
+        font-size: 1rem;
     }
 }
