@@ -24,7 +24,7 @@
     .cloud .grid{
         grid-template-columns: 1fr;
     }
-    .feature,.feature-sub-head,.feature-main,.docs,.docs-main{
+    .feature,.feature-sub-head,.feature-main,.docs{
         text-align: center;
     }
     .feature img,.feature-sub-head img,.docs img{
@@ -55,7 +55,10 @@
       }
     .showcase-form {
         width: 250px;
-      }
+    }
+    .languages .container{
+        padding:0 40px;
+    }
     .footer .grid{
         justify-items: stretch;
     }
@@ -65,11 +68,16 @@
     .container{
         padding: 0;
     }
+    
     .feature-sub-head img{
         width: 100%;
     }
+
     footer{
         padding: 5px;
+    }
+    .docs-main .card{
+        padding: 0;
     }
     .social i{
         font-size: 1rem;
