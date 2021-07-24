@@ -24,10 +24,10 @@
     .cloud .grid{
         grid-template-columns: 1fr;
     }
-    .feature,.feature-sub-head,.feature-main{
+    .feature,.feature-sub-head,.feature-main,.docs,.docs-main{
         text-align: center;
     }
-    .feature img,.feature-sub-head img{
+    .feature img,.feature-sub-head img,.docs img{
         justify-self: center;
     }
     .feature-main .grid> *:first-child,.feature-main .grid> *:nth-child(2){
@@ -40,7 +40,7 @@
 
 /* Mobile */
 @media (max-width:500px){
-    .container,{
+    .container{
         padding: 0 10px;
     }
     .navbar{
@@ -53,7 +53,7 @@
         padding: 10px;
         background-color: rgba(0, 0, 0, 0.1);
       }
-      .showcase-form {
+    .showcase-form {
         width: 250px;
       }
     .footer .grid{
@@ -62,7 +62,7 @@
 }
 
 @media (max-width:300px){
-    .showcase .container{
+    .container{
         padding: 0;
     }
     .feature-sub-head img{
